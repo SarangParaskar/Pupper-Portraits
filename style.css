@@ -1,15 +1,25 @@
-h1{
-    color: orange;
-    font-size: 50px;;
-}
-p{
-    color: black;
-}
-.abc{
-    color: lightpink;
-}
-#YO {
-#YO {
-#YO {
-color: lightsalmon;
-}
+img.Welcome {
+    max-width: 100%;
+    height: auto;
+  }
+  .column1 {
+    float: right;
+    max-width: 40%;
+    height: auto;
+  }
+  .column2 {
+    float: left;
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .center {
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+  }
